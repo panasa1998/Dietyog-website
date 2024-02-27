@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(192, 208, 167);
+            background-image: url(./nature1.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        
+
+        }
+        .login{
+            height: 60vh;
+            width: 25%;
+            border: 2px solid black;
+            padding: 20px;
+            background-color: transparent;
+            border-color: aliceblue;
+            backdrop-filter: blur(10px);
+            box-shadow: rgba(255, 255, 255, .5);
+            border-radius: 30px;
+        }
+        h2{
+            position: absolute;
+            top: 60px;
+            text-shadow: 0px 0px 5px orangered;
+                         
+          
+            
+        
+        }
+        legend{
+            color: rgb(11, 11, 11);
+            font-size: 20px;
+            text-shadow: 1px 1px 2px red;
+           
+
+        }
+        .mid{
+            height: 25px;
+            width: 250px;
+        }
+        .submit{
+            height: 30px;
+            width: 250px;
+            margin-left: 18px;
+            border-radius: 20px;
+            background-color: greenyellow;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+        }
+        .submit:hover{
+            background-color: rgb(114, 49, 176);
+            color: white;
+        }
+       
+
+
+
+
+
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <h2>Dietyog|Ditetion Login</h2>
+        <div class="login">
+            
+            <fieldset>
+               
+                <legend>
+                    Sign in to your account
+                </legend>
+                <form action="#">
+                    <p>Please enter your name and password to login</p>
+                    <label for="user"></label>
+                    <i class="fa fa-user" style="font-size:20px;color: green;position: relative;left: 250px;top: 5px;"></i>
+                    <input type="text" id="user" name="username" placeholder="username" class="mid"><br><br>    
+                    <label for="pswd"></label>
+                    <i class="fa fa-lock" style="font-size:20px;color: green;position: relative;left: 250px;top: 5px;"></i>
+                    <input type="password" id="pswd" name="password" placeholder="password" class="mid"><br><br>
+                    <input type="submit" value="Login" class="submit"><br><br>
+
+                   
+
+
+
+
+
+                </form>
+            </fieldset>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create_account</title>
+    <style>
+        .container{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            height: 100vh;
+            width: 100%;
+            background-image: url(./pexels-photo-101841.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          
+        }
+        h2{
+            text-align: center;
+            text-shadow: 0px 0px 0px black;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .account{
+            border: 2px solid ;
+            height: 60vh;
+            width: 20%;
+            padding: 20px; 
+            text-align: justify; 
+            background-color: transparent;
+            border-color: aliceblue;
+            backdrop-filter: blur(5px);
+            box-shadow: rgba(255, 255, 255, .5);
+            border-radius: 30px;
+        }
+        .mid{
+            width: 300px;
+            height: 20px;
+            background-color: rgb(238, 241, 244);
+            border: none;
+            outline: none;
+            
+        }
+        .btn{
+            color: white;
+        }
+        .btn a{
+            text-decoration: none;
+            color: greenyellow;
+            font-size: 18px;
+            font-weight: 100;
+        }
+        .submit{
+            position: relative;
+            top: 30px;
+            left: 100px;
+            width: 100px;
+            border-radius: 20px;
+            text-align: center;
+            height: 35px;
+            background-color: aqua;
+        }
+        .mid:hover{
+            background-color: rgb(87, 244, 187);
+        }
+        .submit:hover{
+            background-color: rgb(14, 14, 66);
+            color: aliceblue;
+        }
+        .btn a:hover{
+            color: rgb(33, 33, 153);
+        }
+       
+
+        
+        
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="account">
+            <form>
+                <h2>Create account</h2>
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="fullname" placeholder="Full Name" class="mid"><br><br>
+                        <label for="mailid"></label>
+                        <input type="emai" id="mailid" name="Email" placeholder="Email" class="mid" ><br><br>
+                        <label for="pswd"></label>
+                        <input type="password" id="pswd" name="password" placeholder="password" class="mid"><br><br>
+                        <label for="pswd"></label>
+                        <input type="password" id="pswd" name="password" placeholder="Re-enter password" class="mid"><br><br>
+                        <label for="num"></label>
+                        <input type="tel" id="num" name="phn no" placeholder="Contact Number" class="mid"><br><br>
+                        <select name="plan" id="plan" class="mid">
+                            <option value="select plan">Select plan</option>
+                            <option value="Diet">Diet</option>
+                            <option value="Yoga">Yoga</option>
+                            <option value="Both">Both</option>
+                        </select><br><br>
+                        <div class="btn">
+                        <label>Already have an account?</label>
+                        <a href="clientlogin.html">Login</a>
+                        </div>
+                        <input type="submit" class="submit">
+
+
+
+
+                 
+
+
+
+
+
+            
+                
+
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

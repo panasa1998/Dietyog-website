@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .body{
+            margin: 0;
+            padding: 0;
+          
+        }
+        .container{
+            background-image: url(./rainy-bg.jpg);
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            backdrop-filter: blur(15px);
+        }
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 30px;
+            
+        }
+        .details{
+            border: 3px solid aliceblue;
+            height: 300px;
+            width: 400px;
+            padding: 20px;
+            color: white;
+            font-weight: 600;
+            /* animation-name: animate2;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite; */
+            border-radius: 30px;
+            
+        }
+        .message{
+            border: 3px solid aliceblue;
+            height: 500px;
+            width: 500px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            font-weight: 600;
+            /* animation-name: animate2;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite; */
+            border-radius: 30px;
+        }
+        .sub{
+            width: 200px;
+            height: 30px;
+            background-color:aliceblue;
+            color: white;
+            border: none;
+            
+        }
+        h1{
+            text-align: center;
+            color: rgb(243, 236, 236);
+            text-shadow: 5px 5px 8px rgb(216, 14, 14);
+            font-weight: 600;
+            /* animation-name: animate;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite; */
+            font-size: 50px;
+            
+        }
+        textarea{
+            background-color:aliceblue ;
+            border: none;
+            color: white;
+        }
+        .submit{
+            position: relative;
+            top: 100px;
+            height: 35px;
+            width: 100px;
+            border-radius: 30px;
+            background-color: aqua;
+        }
+        .submit:hover{
+            background-color: black;
+            color: aliceblue;
+            border: none;
+        }
+        /* @keyframes animate{
+            0%{
+                text-shadow: 5px 5px 5px green;
+            }
+            50%{
+                text-shadow: 5px 5px 5px blue;
+            }
+            100%{
+                text-shadow: 5px 5px 5px orange;
+            }
+        }
+        @keyframes animate2{
+            0%{
+                border-color: aqua;
+            }
+            100%{
+                border-color: rgb(216, 98, 14);
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Contact Us</h1>
+    <div class="contact">
+        <div class="details">
+            <h2>Main Branch</h1>
+            <p>Hyderabad</p>
+            <h2>Quick Contact</h2>
+            <span><i class="fa fa-mobile" style="font-size:24px;position: relative;top: 3px; color: greenyellow;"></i>&nbsp;&nbsp;+91 8108442083</span><br><br>
+            <span><i class="material-icons"style="font-size:24px;position: relative;top: 6px; left:-5px; color: greenyellow;">mail_outline</i>&nbsp;&nbsp;dietyog23@gmail.com</span>
+
+        </div>
+        <div class="message">
+            <h2>Send Your Message</h2>
+            <p>Don't hesitate to send message us.Our team will help you 24/7.</p>
+            <form action="#">
+                <label for="name"></label>
+                <input type="text" id="name" name="Name" placeholder="Name" class="sub">
+                <label for="num"></label>
+                <input type="tel" id="num" name="phn" placeholder="Contact No" class="sub"><br><br>
+                <label for="mail"></label>
+                <input type="email" id="mail" name="mailid" placeholder=Email class="sub">
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" class="sub"><br><br>
+                <label for="business"></label>
+                <textarea name="business" id="business" cols="30" rows="10" placeholder="Tell me about your business"></textarea>
+                <input type="submit" class="submit">
+            </form>
+
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
